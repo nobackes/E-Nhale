@@ -1,12 +1,12 @@
 
-int port = A0;
+int sensorPin = A0;
 int val;
 
 void setup() {
   // put your setup code here, to run once:
 
   Serial.begin(9600);
-  pinMode(port, INPUT);
+  pinMode(sensorPin, INPUT);
     
 
 }
